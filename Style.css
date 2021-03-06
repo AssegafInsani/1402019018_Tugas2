@@ -1,0 +1,177 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.Header {
+	background-color: #FF4E7E;
+}
+
+.Judul {
+	font-family: cursive;
+	margin-left: 20px;
+}
+
+.Sidebar {
+	background-color: #323545;
+	height: 100%;
+	width: 200px;
+    float: left;
+    position: fixed;
+    padding: 5px;
+}
+
+.Sidebar img {
+	width:25px;
+	height:25px;
+	margin-right: 2px;
+}
+
+.p1, .p2, .p3 {
+	font-family: cursive;
+	margin-top: 15px;
+	margin-left: 40px;
+	margin-bottom: 15px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #FF4E7E;
+}
+
+a:active{
+	color: yellow;
+}
+
+.Content {
+	background-color: #323545;
+	height: 540px;
+	width: 1260px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+ 
+.Content-FH{
+	font-family: cursive;
+	color: white;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.Content-Table{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.Content-Table tr, td{
+	padding: 5px;
+	color: white;
+	font-family: cursive;
+}
+
+
+.Content-SH {
+	font-family: cursive;
+	color: white;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.Content img {
+	width: 350px;
+	height: 250px;
+	float: left;
+	margin-left: 15px;
+	margin-right: 20px;
+}
+
+.Content h2, p, ul{
+	color: white;
+	margin-right: 20px;
+}
+
+.Content li{
+	margin-left: 450px;
+}
+
+
+.Content-TH {
+	font-family: cursive;
+	color: white;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+label {
+	font-family: cursive;
+	font-size: 30px;
+	color: white;
+	margin-left: 15px;
+}
+
+input {
+	width: 1200px;
+	height: 30px;
+	margin-left: 30px;
+}
+
+textarea{
+	width: 1200px;
+	height: 150px;
+	margin-left: 30px;
+}
+
+.Submit {
+	font-family: cursive;
+	width: 100px;
+	height: 50px;
+	background-color: #FF4E7E; 
+	float: right;
+	margin-top: 20px;
+	margin-right: 40px;
+}
+
+.Submit:hover{
+	background-color: yellow;
+}
+
+.Submit:active{
+	background-color: lightblue;
+}
+
+.Footer{
+	text-align: right;
+	height:50px;
+	width: 1308px;
+    background-color: #FF4E7E;
+    float: right;
+    margin-top: 40px;
+}
+
+.Footer img{
+	width:25px;
+	height:25px;
+	margin-right: 2px;
+}
+
+.Footer a {
+	color: black;
+	font-family: cursive;
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.Footer a:hover{
+	color: yellow;
+}
+
+.Footer a:active{
+	color: white;
+}
